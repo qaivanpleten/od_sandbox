@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="settings.settings_change-20161021134444" tests="8" time="29.887">
+	<testcase classname="settings.settings_change" name="test_1_login" time="9.009"/>
+	<testcase classname="settings.settings_change" name="test_2_go_to_my_profile" time="1.770"/>
+	<testcase classname="settings.settings_change" name="test_3_first_name_change" time="2.133"/>
+	<testcase classname="settings.settings_change" name="test_4_last_name_change" time="2.127"/>
+	<testcase classname="settings.settings_change" name="test_5_company_change" time="2.143"/>
+	<testcase classname="settings.settings_change" name="test_6_time_zone" time="4.227"/>
+	<testcase classname="settings.settings_change" name="test_7_file_versioning" time="4.284"/>
+	<testcase classname="settings.settings_change" name="test_8_default_file_permissions" time="4.196"/>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

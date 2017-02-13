@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="create_note.create_note-20161021134444" tests="2" time="33.732">
+	<testcase classname="create_note.create_note" name="test_1_login" time="5.716"/>
+	<testcase classname="create_note.create_note" name="test_2_create_notepad" time="28.016"/>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="create_delete_user.create_delete_edit_user-20161021132108" tests="8" time="103.490">
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_1_login" time="8.707"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_3_activate_notifications" time="11.941"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_4_change_storage_usage" time="2.325"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_5_change_Bandwidth_usage" time="7.221"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_6_delete_user" time="7.206"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_7_block_user" time="13.778"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_7_delete_users_group" time="10.925"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_2_create_users_group_create_user" time="41.387">
+		<error message="Message: unknown error: Element is not clickable at point (425, 512). Other element would receive the click: &lt;div class=&quot;dropdown-loading&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=54.0.2840.59)
+  (Driver info: chromedriver=2.24.417424 (c5c5ea873213ee72e3d0929b47482681555340c3),platform=Linux 4.4.0-42-generic x86_64)
+" type="WebDriverException">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/create_delete_user.py", line 69, in test_2_create_users_group_create_user
+    new_user.click()
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element is not clickable at point (425, 512). Other element would receive the click: <div class="dropdown-loading" style="display: block;">...</div>
+  (Session info: chrome=54.0.2840.59)
+  (Driver info: chromedriver=2.24.417424 (c5c5ea873213ee72e3d0929b47482681555340c3),platform=Linux 4.4.0-42-generic x86_64)
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[MThfMTgyOF9aU1J5MA
+Allison
+Alexis
+Daniels-Wells
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

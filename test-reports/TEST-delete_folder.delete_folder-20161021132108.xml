@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="delete_folder.delete_folder-20161021132108" tests="1" time="36.318">
+	<testcase classname="delete_folder.delete_folder" name="test_delete_folder" time="36.318"/>
+	<system-out>
+<![CDATA[MThfMTgyOF9aU1J5MA
+Allison
+Alexis
+Daniels-Wells
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

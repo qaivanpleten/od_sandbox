@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="task_comment.task_comment-20161021134444" tests="9" time="103.558">
+	<testcase classname="task_comment.task_comment" name="test_1_login" time="10.612"/>
+	<testcase classname="task_comment.task_comment" name="test_2_create_project" time="22.757"/>
+	<testcase classname="task_comment.task_comment" name="test_3_open_task" time="5.158"/>
+	<testcase classname="task_comment.task_comment" name="test_4_create_description" time="12.549"/>
+	<testcase classname="task_comment.task_comment" name="test_7_delete_subcomment" time="5.104"/>
+	<testcase classname="task_comment.task_comment" name="test_8_delete_comment" time="9.118"/>
+	<testcase classname="task_comment.task_comment" name="test_9_delete_project_list" time="6.220"/>
+	<testcase classname="task_comment.task_comment" name="test_5_create_comment" time="6.682">
+		<error message="'Recu[99 chars]aque.\nDicta ex officiis tempora saepe beatae.[30 chars]que.' != 'Recu[99 chars]aque.'
+- Recusandae praesentium nobis occaecati inventore. Deserunt molestiae doloribus consequatur architecto eaque.
+?                                                                                                             -
++ Recusandae praesentium nobis occaecati inventore. Deserunt molestiae doloribus consequatur architecto eaque.- Dicta ex officiis tempora saepe beatae. Aliquid quos et molestias itaque." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/task_comment.py", line 136, in test_5_create_comment
+    ".//*[@id='container']/div/div[5]/div/div[2]/div/div[last()-1]/div[2]/div[1]/div[1]/p").get_attribute("textContent"))
+AssertionError: 'Recu[99 chars]aque.\nDicta ex officiis tempora saepe beatae.[30 chars]que.' != 'Recu[99 chars]aque.'
+- Recusandae praesentium nobis occaecati inventore. Deserunt molestiae doloribus consequatur architecto eaque.
+?                                                                                                             -
++ Recusandae praesentium nobis occaecati inventore. Deserunt molestiae doloribus consequatur architecto eaque.- Dicta ex officiis tempora saepe beatae. Aliquid quos et molestias itaque.
+]]>		</error>
+	</testcase>
+	<testcase classname="task_comment.task_comment" name="test_6_create_subcomment" time="25.360">
+		<error message="'Dese[114 chars]odit.\nUnde autem dolores libero alias. Est ea[31 chars]mus.' != 'Dese[114 chars]odit.'
+- Deserunt vel eveniet totam aspernatur eos. Harum necessitatibus qui aliquid facere nisi. Culpa earum temporibus magni odit.
+?                                                                                                                            -
++ Deserunt vel eveniet totam aspernatur eos. Harum necessitatibus qui aliquid facere nisi. Culpa earum temporibus magni odit.- Unde autem dolores libero alias. Est eaque ratione rem recusandae ducimus." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/task_comment.py", line 158, in test_6_create_subcomment
+    ".//*[@id='container']/div/div[5]/div/div[2]/div/div[4]/div[2]/div[2]/div[last()]/div[2]/div[1]/p").get_attribute("textContent"))
+AssertionError: 'Dese[114 chars]odit.\nUnde autem dolores libero alias. Est ea[31 chars]mus.' != 'Dese[114 chars]odit.'
+- Deserunt vel eveniet totam aspernatur eos. Harum necessitatibus qui aliquid facere nisi. Culpa earum temporibus magni odit.
+?                                                                                                                            -
++ Deserunt vel eveniet totam aspernatur eos. Harum necessitatibus qui aliquid facere nisi. Culpa earum temporibus magni odit.- Unde autem dolores libero alias. Est eaque ratione rem recusandae ducimus.
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

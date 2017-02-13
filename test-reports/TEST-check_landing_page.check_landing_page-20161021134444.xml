@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="check_landing_page.check_landing_page-20161021134444" tests="10" time="142.362">
+	<testcase classname="check_landing_page.check_landing_page" name="test_navigation" time="6.835"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_driver_api" time="3.518"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_for_android" time="3.220"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_for_iphone" time="3.202"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_for_mac" time="3.163"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_for_win" time="3.156"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_webdav" time="3.329"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_plans" time="113.235"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_search_invalid" time="1.275"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_search_valid" time="1.428"/>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

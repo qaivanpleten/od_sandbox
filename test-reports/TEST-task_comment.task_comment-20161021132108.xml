@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="task_comment.task_comment-20161021132108" tests="9" time="185.440">
+	<testcase classname="task_comment.task_comment" name="test_1_login" time="10.257"/>
+	<testcase classname="task_comment.task_comment" name="test_2_create_project" time="23.208"/>
+	<testcase classname="task_comment.task_comment" name="test_3_open_task" time="5.149"/>
+	<testcase classname="task_comment.task_comment" name="test_4_create_description" time="11.461"/>
+	<testcase classname="task_comment.task_comment" name="test_5_create_comment" time="39.359"/>
+	<testcase classname="task_comment.task_comment" name="test_6_create_subcomment" time="75.501"/>
+	<testcase classname="task_comment.task_comment" name="test_7_delete_subcomment" time="5.136"/>
+	<testcase classname="task_comment.task_comment" name="test_8_delete_comment" time="9.084"/>
+	<testcase classname="task_comment.task_comment" name="test_9_delete_project_list" time="6.285"/>
+	<system-out>
+<![CDATA[MThfMTgyOF9aU1J5MA
+Allison
+Alexis
+Daniels-Wells
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

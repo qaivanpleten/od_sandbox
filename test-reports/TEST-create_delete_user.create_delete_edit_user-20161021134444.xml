@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="create_delete_user.create_delete_edit_user-20161021134444" tests="8" time="125.465">
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_1_login" time="8.759"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_2_create_users_group_create_user" time="63.167"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_3_activate_notifications" time="11.503"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_4_change_storage_usage" time="2.256"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_5_change_Bandwidth_usage" time="7.294"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_6_delete_user" time="7.144"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_7_block_user" time="13.453"/>
+	<testcase classname="create_delete_user.create_delete_edit_user" name="test_7_delete_users_group" time="11.891"/>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="create_files.create_files-20161021134444" tests="6" time="138.650">
+	<testcase classname="create_files.create_files" name="test_1_login" time="5.378"/>
+	<testcase classname="create_files.create_files" name="test_2_create_files_list" time="35.513"/>
+	<testcase classname="create_files.create_files" name="test_3_create_files_grid" time="37.522"/>
+	<testcase classname="create_files.create_files" name="test_4_files_menu" time="14.614"/>
+	<testcase classname="create_files.create_files" name="test_5_delete_file_list" time="10.311"/>
+	<testcase classname="create_files.create_files" name="test_6_copy_file" time="35.312"/>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

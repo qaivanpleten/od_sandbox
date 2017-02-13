@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="unittest.suite._ErrorHolder-20161021134444" tests="2" time="0.000">
+	<testcase classname="unittest.suite._ErrorHolder" name="login)" time="0.000">
+		<error message="Message: The browser appears to have exited before we could connect. If you specified a log_file in the FirefoxBinary constructor, check it for details.
+" type="WebDriverException">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/login.py", line 8, in setUpClass
+    cls.driver = webdriver.Firefox()                                  #can use Firefox or Chrome
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/webdriver.py", line 80, in __init__
+    self.binary, timeout)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/extension_connection.py", line 52, in __init__
+    self.binary.launch_browser(self.profile, timeout=timeout)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/firefox_binary.py", line 68, in launch_browser
+    self._wait_until_connectable(timeout=timeout)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/firefox_binary.py", line 99, in _wait_until_connectable
+    "The browser appears to have exited "
+selenium.common.exceptions.WebDriverException: Message: The browser appears to have exited before we could connect. If you specified a log_file in the FirefoxBinary constructor, check it for details.
+
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.suite._ErrorHolder" name="registration)" time="0.000">
+		<error message="Message: The browser appears to have exited before we could connect. If you specified a log_file in the FirefoxBinary constructor, check it for details.
+" type="WebDriverException">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/registration.py", line 10, in setUpClass
+    cls.driver = webdriver.Firefox()
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/webdriver.py", line 80, in __init__
+    self.binary, timeout)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/extension_connection.py", line 52, in __init__
+    self.binary.launch_browser(self.profile, timeout=timeout)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/firefox_binary.py", line 68, in launch_browser
+    self._wait_until_connectable(timeout=timeout)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/firefox_binary.py", line 99, in _wait_until_connectable
+    "The browser appears to have exited "
+selenium.common.exceptions.WebDriverException: Message: The browser appears to have exited before we could connect. If you specified a log_file in the FirefoxBinary constructor, check it for details.
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

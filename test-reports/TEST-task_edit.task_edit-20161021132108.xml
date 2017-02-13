@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="task_edit.task_edit-20161021132108" tests="4" time="63.528">
+	<testcase classname="task_edit.task_edit" name="test_1_login" time="13.318"/>
+	<testcase classname="task_edit.task_edit" name="test_2_create" time="16.499"/>
+	<testcase classname="task_edit.task_edit" name="test_3_edit_task" time="28.963"/>
+	<testcase classname="task_edit.task_edit" name="test_4_delete" time="4.748"/>
+	<system-out>
+<![CDATA[MThfMTgyOF9aU1J5MA
+Allison
+Alexis
+Daniels-Wells
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

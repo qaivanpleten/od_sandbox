@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="unittest.suite._ErrorHolder-20161021132108" tests="2" time="0.000">
+	<testcase classname="unittest.suite._ErrorHolder" name="login)" time="0.000">
+		<error message="[Errno 104] Connection reset by peer" type="ConnectionResetError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/login.py", line 8, in setUpClass
+    cls.driver = webdriver.Firefox()                                  #can use Firefox or Chrome
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/webdriver.py", line 85, in __init__
+    keep_alive=True)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webdriver.py", line 90, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webdriver.py", line 177, in start_session
+    response = self.execute(Command.NEW_SESSION, capabilities)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/remote_connection.py", line 401, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/remote_connection.py", line 433, in _request
+    resp = self._conn.getresponse()
+  File "/usr/lib/python3.4/http/client.py", line 1171, in getresponse
+    response.begin()
+  File "/usr/lib/python3.4/http/client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.4/http/client.py", line 313, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.4/socket.py", line 374, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+]]>		</error>
+	</testcase>
+	<testcase classname="unittest.suite._ErrorHolder" name="registration)" time="0.000">
+		<error message="[Errno 104] Connection reset by peer" type="ConnectionResetError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/registration.py", line 10, in setUpClass
+    cls.driver = webdriver.Firefox()
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/firefox/webdriver.py", line 85, in __init__
+    keep_alive=True)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webdriver.py", line 90, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webdriver.py", line 177, in start_session
+    response = self.execute(Command.NEW_SESSION, capabilities)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/remote_connection.py", line 401, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/developer/PycharmProjects/opendrive/.env/lib/python3.4/site-packages/selenium/webdriver/remote/remote_connection.py", line 433, in _request
+    resp = self._conn.getresponse()
+  File "/usr/lib/python3.4/http/client.py", line 1171, in getresponse
+    response.begin()
+  File "/usr/lib/python3.4/http/client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.4/http/client.py", line 313, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.4/socket.py", line 374, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[MThfMTgyOF9aU1J5MA
+Allison
+Alexis
+Daniels-Wells
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

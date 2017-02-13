@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="settings_2.settings_change_2-20161021134444" tests="7" time="66.251">
+	<testcase classname="settings_2.settings_change_2" name="test_1_login" time="10.186"/>
+	<testcase classname="settings_2.settings_change_2" name="test_3_go_to_activity_page" time="3.928"/>
+	<testcase classname="settings_2.settings_change_2" name="test_4_logs_check" time="11.965"/>
+	<testcase classname="settings_2.settings_change_2" name="test_5_upgrade_page" time="9.352"/>
+	<testcase classname="settings_2.settings_change_2" name="test_6_pormocode_percent" time="10.149"/>
+	<testcase classname="settings_2.settings_change_2" name="test_7_payment_methods_page" time="3.049"/>
+	<testcase classname="settings_2.settings_change_2" name="test_8_promocode_dollar" time="17.622"/>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

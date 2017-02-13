@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<testsuite errors="3" failures="0" name="check_landing_page.check_landing_page-20161021132108" tests="10" time="137.522">
+	<testcase classname="check_landing_page.check_landing_page" name="test_navigation" time="6.405"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_for_mac" time="3.244"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_for_win" time="3.310"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_webdav" time="3.299"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_plans" time="118.279"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_search_invalid" time="1.261"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_search_valid" time="1.438"/>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_driver_api" time="0.128">
+		<error message="'OpenDrive – OpenDrive API' not found in 'OpenDrive – OpenDrive Partners'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/check_landing_page.py", line 242, in test_od_driver_api
+    self.assertIn("OpenDrive – OpenDrive API", self.driver.title)   #check page title in HTML
+AssertionError: 'OpenDrive – OpenDrive API' not found in 'OpenDrive – OpenDrive Partners'
+]]>		</error>
+	</testcase>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_for_android" time="0.067">
+		<error message="'OpenDrive – OpenDrive for Android' not found in 'OpenDrive – OpenDrive Partners'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/check_landing_page.py", line 212, in test_od_for_android
+    self.assertIn("OpenDrive – OpenDrive for Android", self.driver.title)   #check page title in HTML
+AssertionError: 'OpenDrive – OpenDrive for Android' not found in 'OpenDrive – OpenDrive Partners'
+]]>		</error>
+	</testcase>
+	<testcase classname="check_landing_page.check_landing_page" name="test_od_for_iphone" time="0.091">
+		<error message="'OpenDrive – OpenDrive for iPhone' not found in 'OpenDrive – OpenDrive Partners'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/developer/PycharmProjects/opendrive/check_landing_page.py", line 222, in test_od_for_iphone
+    self.assertIn("OpenDrive – OpenDrive for iPhone", self.driver.title)   #check page title in HTML
+AssertionError: 'OpenDrive – OpenDrive for iPhone' not found in 'OpenDrive – OpenDrive Partners'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[MThfMTgyOF9aU1J5MA
+Allison
+Alexis
+Daniels-Wells
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

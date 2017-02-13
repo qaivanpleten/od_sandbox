@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="task_create_delete.task_create_delete-20161021134444" tests="4" time="56.272">
+	<testcase classname="task_create_delete.task_create_delete" name="test_1_login" time="11.605"/>
+	<testcase classname="task_create_delete.task_create_delete" name="test_2_task_create_project" time="11.201"/>
+	<testcase classname="task_create_delete.task_create_delete" name="test_3_create_tasks" time="12.097"/>
+	<testcase classname="task_create_delete.task_create_delete" name="test_4_delete_projectlists" time="21.368"/>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

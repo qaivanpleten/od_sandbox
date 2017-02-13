@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="file_properties.file_properties-20161021134444" tests="5" time="38.720">
+	<testcase classname="file_properties.file_properties" name="test_1_login" time="5.424"/>
+	<testcase classname="file_properties.file_properties" name="test_2_create_file" time="5.604"/>
+	<testcase classname="file_properties.file_properties" name="test_3_edit_properties" time="18.181"/>
+	<testcase classname="file_properties.file_properties" name="test_4_edit_description" time="4.312"/>
+	<testcase classname="file_properties.file_properties" name="test_8_delete_file" time="5.200"/>
+	<system-out>
+<![CDATA[MThfMTgzM19QR0FzSw
+Erica
+Juan
+Williams PLC
+October2016
+September2016
+August2016
+July2016
+June2016
+October2016
+September2016
+August2016
+July2016
+June2016
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
