@@ -1,12 +1,9 @@
-import unittest, time, os
+import unittest, time, os, hashlib
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
 from faker import Faker
 
 fake_folder_name = Faker()
@@ -52,8 +49,18 @@ class download_file(unittest.TestCase):
         time.sleep(10)
 
     def test_4_check_file(self):
-        os.path.exists("/home/developer/Загрузки/tumblr_of8n6x25FT1r2qr2so1_500.jpg")
+        # check file in folder
         self.assertTrue(os.path.exists("/home/developer/Загрузки/tumblr_of8n6x25FT1r2qr2so1_500.jpg"))
+
+        # check size
+        self.assertEqual(47072, (os.path.getsize("/home/developer/Загрузки/tumblr_of8n6x25FT1r2qr2so1_500.jpg")))
+
+        # check hash
+        self.assertEqual("08d17c81c3402ea485ddf31713c79fae",
+                         (hashlib.md5(open("/home/developer/Загрузки/tumblr_of8n6x25FT1r2qr2so1_500.jpg",
+                                           "rb").read()).hexdigest()))
+
+        # delete file
         os.remove("/home/developer/Загрузки/tumblr_of8n6x25FT1r2qr2so1_500.jpg")
 
     @classmethod

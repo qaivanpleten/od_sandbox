@@ -18,6 +18,11 @@ from open_file import open_file
 from admin_all_pages_check import admin_all_pages_check
 from admin_users_page import admin_users_page
 from admin_users_page_ney_payment import admin_new_payment
+from download_few_files import download_files
+from download_few_folders import download_folders
+from download_single_file import download_file
+from download_zip_all_files_and_folders import download_all
+
 
 
 # get all tests
@@ -40,12 +45,18 @@ open_file_test = unittest.TestLoader().loadTestsFromTestCase(open_file)
 admin_check_pages_test = unittest.TestLoader().loadTestsFromTestCase(admin_all_pages_check)
 admin_users_page_test = unittest.TestLoader().loadTestsFromTestCase(admin_users_page)
 admin_create_new_payment_test = unittest.TestLoader().loadTestsFromTestCase(admin_new_payment)
+download_all_test = unittest.TestLoader().loadTestsFromTestCase(download_all)
+download_file_test = unittest.TestLoader().loadTestsFromTestCase(download_file)
+download_few_folders_test = unittest.TestLoader().loadTestsFromTestCase(download_folders)
+download_few_files_test = unittest.TestLoader().loadTestsFromTestCase(download_files)
+
 
 smoke_tests = unittest.TestSuite((login_tests, landing_page_tests, registration_test, open_folder_test,
                                   create_files_test, delete_folder_test, create_note_test,
 task_create_delete_test, task_edit_test, task_comment_test, create_delete_users_test, file_properties_test,
 settings_change_test, settings_change_2_test, settings_change_3_test, open_file_test,
-                                  admin_check_pages_test, admin_users_page_test, admin_create_new_payment_test))
+                                  admin_check_pages_test, admin_users_page_test, admin_create_new_payment_test,
+                                  download_all_test, download_few_files_test, download_few_folders_test, download_file_test))
 
 # run the suite
 a = unittest.TextTestRunner(verbosity=2).run(smoke_tests)

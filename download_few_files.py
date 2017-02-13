@@ -1,12 +1,9 @@
-import unittest, time
+import unittest, time, os, hashlib
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
 from faker import Faker
 
 fake_folder_name = Faker()
@@ -57,3 +54,26 @@ class download_files(unittest.TestCase):
         alert = self.driver.switch_to_alert()
         alert.accept()
         time.sleep(10)
+
+    def test_4_check_zip(self):
+        # check zip in folder
+        self.assertTrue(os.path.exists("/home/developer/Загрузки/download all files and folders.zip"))
+
+        # check size
+        self.assertEqual(64320, (os.path.getsize("/home/developer/Загрузки/download all files and folders.zip")))
+
+        # check hash
+        self.assertEqual("fb4ecf91d7b790e4dbf4e6529d156d26",
+                         (hashlib.md5(open("/home/developer/Загрузки/download all files and folders.zip",
+                                           "rb").read()).hexdigest()))
+
+        # delete file
+        os.remove("/home/developer/Загрузки/download all files and folders.zip")
+
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.driver.close()
+
+    if __name__ == '__main__':
+        unittest.main(verbosity=2)
