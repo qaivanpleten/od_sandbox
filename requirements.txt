@@ -11,7 +11,7 @@ command-not-found==0.3
 contextlib2==0.5.4
 ddt==1.1.0
 defer==1.0.6
-ecdsa==0.13
+ecdsa==0.13.3
 execnet==1.4.1
 Fabric==1.11.1
 Faker==0.7.3
