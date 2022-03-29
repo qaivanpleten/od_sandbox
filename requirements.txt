@@ -30,7 +30,7 @@ nose2==0.6.5
 oauthlib==0.6.1
 onboard==1.0.1
 oneconf==0.3.7.14.4.1
-paramiko==1.17.1
+paramiko==2.10.1
 path.py==8.2.1
 pbr==1.10.0
 piston-mini-client==0.7.5
