@@ -54,7 +54,7 @@ python-dateutil==2.5.3
 python-debian===0.1.21-nmu2ubuntu2
 python-jenkins==0.4.13
 pyxdg==0.25
-requests==2.2.1
+requests==2.20.0
 selenium==2.53.6
 six==1.7.3
 software-center-aptd-plugins==0.0.0
